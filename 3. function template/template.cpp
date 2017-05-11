@@ -1,6 +1,6 @@
 #include <node.h>
 
-namespace __first__ {
+namespace __template__ {
 
 using v8::HandleScope;
 using v8::FunctionTemplate;

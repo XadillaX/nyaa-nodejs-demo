@@ -11,7 +11,8 @@ using v8::String;
 using v8::Value;
 using v8::HandleScope;
 
-void RunCallback(const FunctionCallbackInfo<Value>& args) {
+void RunCallback(const FunctionCallbackInfo<Value>& args)
+{
     Isolate* isolate = Isolate::GetCurrent();
     HandleScope scope(isolate);
 
