@@ -2,7 +2,7 @@
   "name": "3-function-template",
   "version": "1.0.0",
   "description": "Demo for function template.",
-  "main": "build/Release/entry.node",
+  "main": "build/Release/template.node",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/XadillaX/nyaa-nodejs-demo.git"

@@ -1,8 +1,8 @@
 {
-  "name": "4-object-template",
+  "name": "5-object-template-accessor",
   "version": "1.0.0",
-  "description": "Demo for object template.",
-  "main": "build/Release/template.node",
+  "description": "Demo for object template accessor.",
+  "main": "build/Release/accessor.node",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/XadillaX/nyaa-nodejs-demo.git"
