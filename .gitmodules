@@ -1,0 +1,7 @@
+[submodule "deps/mbedtls"]
+    path = deps/mbedtls
+    url = https://github.com/spark/node-mbed-dtls-client
+
+[submodule "deps/minihttp"]
+    path = deps/minihttp
+    url = https://github.com/fgenesis/minihttp

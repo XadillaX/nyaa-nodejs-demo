@@ -10,6 +10,7 @@ using v8::FunctionTemplate;
 using v8::Function;
 using v8::Isolate;
 using v8::Local;
+using v8::MaybeLocal;
 using v8::Object;
 using v8::String;
 using v8::Value;
@@ -115,7 +116,7 @@ void Init(Local<Object> exports, Local<Object> module)
     // 动态变量
     tpl->SetAccessor(String::NewFromUtf8(isolate, "var3"), Getter3, Setter3);
 
-    Local<Object> ret = tpl->NewInstance();
+    Local<Object> ret = ((MaybeLocal<Object>)tpl->NewInstance()).ToLocalChecked();
     TestExternal* ex = new TestExternal(ret);
     ret->SetInternalField(0, External::New(isolate, ex));
 
