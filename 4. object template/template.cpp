@@ -28,6 +28,11 @@ void ClassGet(const FunctionCallbackInfo<Value>& args)
     return args.GetReturnValue().Set(args.This()->Get(String::NewFromUtf8(isolate, "value")));
 }
 
+void Func(const FunctionCallbackInfo<Value>& args)
+{
+    args.GetReturnValue().Set(2333);
+}
+
 void Init(Local<Object> exports)
 {
     Isolate* isolate = Isolate::GetCurrent();
@@ -52,6 +57,15 @@ void Init(Local<Object> exports)
         array->Set(Number::New(isolate, i), obj_tpl->NewInstance());
     }
     exports->Set(String::NewFromUtf8(isolate, "array"), array);
+
+    // 设置函数体
+    Local<ObjectTemplate> obj_with_func_tpl = ObjectTemplate::New(isolate);
+    obj_with_func_tpl->Set(String::NewFromUtf8(isolate, "cat"),
+            String::NewFromUtf8(isolate, "南瓜饼"));
+    obj_with_func_tpl->Set(String::NewFromUtf8(isolate, "dog"),
+            String::NewFromUtf8(isolate, "蛋花汤"));
+    obj_with_func_tpl->SetCallAsFunctionHandler(Func);
+    exports->Set(String::NewFromUtf8(isolate, "func"), obj_with_func_tpl->NewInstance());
 }
 
 NODE_MODULE(_template, Init)
