@@ -1,8 +1,8 @@
 {
-  "name": "12-try-catch",
+  "name": "15-run-callback",
   "version": "1.0.0",
-  "description": "Demo for try-catch.",
-  "main": "build/Release/try_catch.node",
+  "description": "Demo for running callback.",
+  "main": "build/Release/addon.node",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/XadillaX/nyaa-nodejs-demo.git"

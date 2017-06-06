@@ -1,8 +1,8 @@
 {
-  "name": "12-try-catch",
+  "name": "14-function-parameters",
   "version": "1.0.0",
-  "description": "Demo for try-catch.",
-  "main": "build/Release/try_catch.node",
+  "description": "Demo for function parameters.",
+  "main": "build/Release/addon.node",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/XadillaX/nyaa-nodejs-demo.git"
