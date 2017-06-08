@@ -1,0 +1,16 @@
+{
+  "name": "16-function-factory",
+  "version": "1.0.0",
+  "description": "Demo for function factory.",
+  "main": "build/Release/addon.node",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XadillaX/nyaa-nodejs-demo.git"
+  },
+  "author": "XadillaX <i@2333.moe>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/XadillaX/nyaa-nodejs-demo/issues"
+  },
+  "homepage": "https://github.com/XadillaX/nyaa-nodejs-demo#readme"
+}
