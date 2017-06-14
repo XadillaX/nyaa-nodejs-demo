@@ -1,0 +1,15 @@
+{
+  "name": "19-at_exit_hook",
+  "version": "1.0.0",
+  "description": "Demo for AtExit Hook.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XadillaX/nyaa-nodejs-demo.git"
+  },
+  "author": "XadillaX <i@2333.moe>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/XadillaX/nyaa-nodejs-demo/issues"
+  },
+  "homepage": "https://github.com/XadillaX/nyaa-nodejs-demo#readme"
+}

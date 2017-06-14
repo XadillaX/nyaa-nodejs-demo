@@ -4,7 +4,7 @@
 #include <node.h>
 #include <node_object_wrap.h>
 
-namespace __addon1__ {
+namespace __addon3__ {
 
 using node::ObjectWrap;
 using v8::Object;

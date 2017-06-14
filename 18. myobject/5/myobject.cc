@@ -1,6 +1,6 @@
 #include "myobject.h"
 
-namespace __addon4__ {
+namespace __addon5__ {
 
 using v8::Isolate;
 using v8::FunctionTemplate;

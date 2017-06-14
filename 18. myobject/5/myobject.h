@@ -4,7 +4,7 @@
 #include <node.h>
 #include <node_object_wrap.h>
 
-namespace __addon4__ {
+namespace __addon5__ {
 
 using node::ObjectWrap;
 using v8::Object;
@@ -20,6 +20,7 @@ public:
     static void Init(Isolate* isolate);
     static void NewInstance(const FunctionCallbackInfo<Value>& args);
     double PlusOne();
+    inline double value() const { return value_; }
 
 private:
     explicit MyObject(double value = 0);

@@ -1,7 +1,7 @@
 #include <node.h>
 #include "myobject.h"
 
-namespace __addon1__ {
+namespace __addon2__ {
 
 using v8::Local;
 using v8::Object;
