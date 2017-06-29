@@ -1,5 +1,5 @@
 {
-    "targets": [{
+  "targets": [{
     "target_name": "prototype",
     "sources": [
       "prototype/addon.cc"
