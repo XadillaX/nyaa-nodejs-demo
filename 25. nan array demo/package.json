@@ -1,8 +1,8 @@
 {
-  "name": "23-nan-reverse-string",
+  "name": "25-nan-array-demo",
   "version": "1.0.0",
-  "description": "Demo for NAN reversing string.",
-  "main": "build/Release/reverse.node",
+  "description": "Demo for NAN array.",
+  "main": "build/Release/array.node",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/XadillaX/nyaa-nodejs-demo.git"
