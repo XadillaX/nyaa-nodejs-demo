@@ -15,5 +15,13 @@
     "include_dirs": [
       "<!(node -e \"require('nan')\")"
     ]
+  }, {
+    "target_name": "sem_sleep",
+    "sources": [
+      "sem/sleep.cc"
+    ],
+    "include_dirs": [
+      "<!(node -e \"require('nan')\")"
+    ]
   }]
 }
