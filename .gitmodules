@@ -5,3 +5,7 @@
 [submodule "deps/minihttp"]
     path = deps/minihttp
     url = https://github.com/fgenesis/minihttp
+
+[submodule "deps/efsw"]
+    path = deps/efsw
+    url = https://github.com/diegostamigni/efsw
