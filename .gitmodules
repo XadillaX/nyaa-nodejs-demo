@@ -8,4 +8,4 @@
 
 [submodule "deps/efsw"]
     path = deps/efsw
-    url = https://github.com/diegostamigni/efsw
+    url = https://github.com/aneutron/efsw
