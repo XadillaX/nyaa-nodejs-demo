@@ -39,7 +39,7 @@
           "../deps/efsw/src/efsw/WatcherWin32.cpp"
         ]
       }],
-      ["OS==\"linux\"", {
+      ["OS!=\"win\"", {
         "sources": [
           "../deps/efsw/src/efsw/platform/posix/FileSystemImpl.cpp",
           "../deps/efsw/src/efsw/platform/posix/MutexImpl.cpp",
@@ -52,14 +52,6 @@
       ["OS==\"mac\"", {
         "defines": [
           "EFSW_FSEVENTS_SUPPORTED"
-        ],
-        "sources": [
-          "../deps/efsw/src/efsw/platform/posix/FileSystemImpl.cpp",
-          "../deps/efsw/src/efsw/platform/posix/MutexImpl.cpp",
-          "../deps/efsw/src/efsw/platform/posix/SystemImpl.cpp",
-          "../deps/efsw/src/efsw/platform/posix/ThreadImpl.cpp",
-          "../deps/efsw/src/efsw/FileWatcherKqueue.cpp",
-          "../deps/efsw/src/efsw/WatcherKqueue.cpp" 
         ],
         "xcode_settings": {
           "OTHER_LDFLAGS": [
