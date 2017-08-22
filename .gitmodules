@@ -15,5 +15,5 @@
     url = https://github.com/XadillaX/efsw
 
 [submodule "35. efsw advanced"]
-    path = 34. efsw advanced
+    path = 35. efsw advanced
     url = https://github.com/XadillaX/node-efsw
