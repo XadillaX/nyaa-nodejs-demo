@@ -10,6 +10,6 @@
     path = deps/efsw
     url = https://github.com/XadillaX/efsw
 
-[submodule "34. efsw"]
-    path = 34. efsw
-    url = https://github.com/XadillaX/node-efsw
+[submodule "34. efsw/src/deps/efsw"]
+    path = 34. efsw/src/deps/efsw
+    url = https://github.com/XadillaX/efsw
