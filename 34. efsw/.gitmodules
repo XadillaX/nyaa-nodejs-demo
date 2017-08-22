@@ -1,0 +1,3 @@
+[submodule "src/deps/efsw"]
+    path = src/deps/efsw
+    url = https://github.com/XadillaX/efsw

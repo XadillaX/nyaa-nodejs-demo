@@ -1,0 +1,27 @@
+{
+  "name": "efsw",
+  "version": "1.0.0",
+  "description": "Node.js binding for efsw.",
+  "main": "efsw.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XadillaX/node-efsw.git"
+  },
+  "keywords": [
+    "efsw",
+    "watcher",
+    "fsevents"
+  ],
+  "author": "XadillaX <i@2333.moe>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/XadillaX/node-efsw/issues"
+  },
+  "homepage": "https://github.com/XadillaX/node-efsw#readme",
+  "dependencies": {
+    "nan": "^2.6.2"
+  }
+}
