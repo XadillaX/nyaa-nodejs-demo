@@ -1,6 +1,6 @@
 [submodule "deps/mbedtls"]
     path = deps/mbedtls
-    url = https://github.com/spark/node-mbed-dtls-client
+    url = https://github.com/particle-iot/mbedtls
 
 [submodule "deps/minihttp"]
     path = deps/minihttp
