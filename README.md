@@ -56,7 +56,7 @@ $ git clone https://github.com/XadillaX/nyaa-nodejs-demo.git --recurse-submodule
 32. [libuv sleep sort advanced](32.%20libuv%20sleep%20sort%20advanced)：「6.2.2. 同步原语（Synchronization Primitives）」
 33. [libuv watchdog](33.%20libuv%20watchdog)：「6.3.2. Watchdog 半成品实战解析」
 34. [efsw](34.%20efsw)：「7.1.1. 功能规划」
-35. [efsw advanced](35.%20efsw%20advanced)：「7.4.2. JavaScript 代码完善」
+35. [efsw advanced](https://github.com/XadillaX/node-efsw/tree/85cc5b816c3e04b4df92f63592f5e9ce99808418)：「7.4.2. JavaScript 代码完善」
 36. [napi](36.%20napi)：「9.1.1. 实现一个 `Echo` 函数」
 
 ## 购书链接
@@ -67,3 +67,11 @@ $ git clone https://github.com/XadillaX/nyaa-nodejs-demo.git --recurse-submodule
 + [亚马逊](https://www.amazon.cn/dp/B07DL8GHQC/ie=UTF8&qid=1528969734)
 + [china-pub](http://product.china-pub.com/8039217)
 + [豆瓣](https://book.douban.com/subject/30247892/)（不算购书链接）
+
+## 感谢阅读
+
+最后，感谢大家支持本书。
+
+![フランドール・スカーレット](flandre.jpg)
+
+<center><font color="gray"><small>图片来自 <a target="_blank" href="https://www.pixiv.net/member_illust.php?mode=medium&illust_id=35873732">Pixiv</a></small></font></center>
