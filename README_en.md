@@ -74,6 +74,10 @@ $ git clone https://github.com/XadillaX/nyaa-nodejs-demo.git --recurse-submodule
 + [china-pub](http://product.china-pub.com/8039217)
 + [Douban](https://book.douban.com/subject/30247892/)
 
+## QQ Communicate Group
+
+![QQ Group](./qq_group.png)
+
 ## Thanks
 
 Thank you for supporting my book!

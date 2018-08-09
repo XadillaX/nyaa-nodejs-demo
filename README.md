@@ -70,6 +70,10 @@ $ git clone https://github.com/XadillaX/nyaa-nodejs-demo.git --recurse-submodule
 + [china-pub](http://product.china-pub.com/8039217)
 + [豆瓣](https://book.douban.com/subject/30247892/)（不算购书链接）
 
+## QQ 交流群
+
+![QQ 群](./qq_group.png)
+
 ## 感谢阅读
 
 最后，感谢大家支持本书。
