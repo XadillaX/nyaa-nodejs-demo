@@ -1,5 +1,4 @@
 #include <node.h>
-#include <util.h>
 #include "../deps/minihttp/minihttp.h"
 
 #ifdef _WIN32
