@@ -76,7 +76,7 @@ $ git clone https://github.com/XadillaX/nyaa-nodejs-demo.git --recurse-submodule
 
 ## QQ Communicate Group
 
-![QQ Group](./qq_group.jpg)
+<img src="./qq_group.jpg" width="200" alt="QQ 群" />
 
 ## Thanks
 

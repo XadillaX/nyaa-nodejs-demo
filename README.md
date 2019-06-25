@@ -72,7 +72,7 @@ $ git clone https://github.com/XadillaX/nyaa-nodejs-demo.git --recurse-submodule
 
 ## QQ 交流群
 
-![QQ 群](./qq_group.jpg)
+<img src="./qq_group.jpg" width="200" alt="QQ 群" />
 
 ## 感谢阅读
 
